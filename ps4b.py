@@ -68,7 +68,6 @@ def compPlayHand(hand, wordList, n,tos):
     """
     # Keep track of the total score
     global PREV_HAND,PREV_SCORE
-    print(hand)
     total_score=tos
     print('re game:',total_score)
     while calculateHandlen(hand)>0: 
